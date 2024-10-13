@@ -1,0 +1,39 @@
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content{
+    width:70%;
+}
+
+.header-upper-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links-ul{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-weight: 900;
+}
