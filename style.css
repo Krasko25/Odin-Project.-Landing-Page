@@ -2,7 +2,6 @@
 
 header{
     display: flex;
-    flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -10,7 +9,7 @@ header{
 }
 
 .header-content{
-    width:70%;
+    width: 70%;
 }
 
 .header-upper-line{
@@ -36,4 +35,8 @@ a{
 
 h1{
     font-weight: 900;
+}
+
+.header-buildboard img{
+    width:100%;
 }
