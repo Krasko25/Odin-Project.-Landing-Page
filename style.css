@@ -9,6 +9,7 @@ header{
 }
 
 .header-content{
+    margin-top: 15px;
     width: 700px;
 }
 
@@ -19,7 +20,7 @@ header{
 
 .header-links-ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 ul{
@@ -38,19 +39,41 @@ h1{
 }
 
 .header-buildboard img{
-    width:auto;
-    height: 100%;
+    width:100%;
+    height: auto;
+}
+
+.header-buildboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 5;
+}
+
+.header-buildboard-line-text-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 3;
 }
 
 .header-buildboard-line{
     display: flex;
-    margin: 30px 0px;
-    height: 220px;
+    height: 350px;
     gap:15px;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .header-buildboard-line-text-part{
     
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo{
+    font-weight: 1000;
 }
