@@ -1,7 +1,6 @@
 
 
 header{
-    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -10,6 +9,16 @@ header{
 
 .header-content{
     margin-top: 15px;
+    width: 700px;
+}
+
+.square-frames-part, .quote-part{
+    display: flex;
+    justify-content: center;
+}
+
+.square-frames-part-content, 
+.quote-part-content{
     width: 700px;
 }
 
@@ -65,10 +74,6 @@ h1{
     align-items: center;
 }
 
-.header-buildboard-line-text-part{
-    
-}
-
 h1{
     margin: 0;
     padding: 0;
@@ -76,4 +81,27 @@ h1{
 
 .header-logo{
     font-weight: 1000;
+}
+
+.square-frame-picture{
+    border: 3px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+}
+
+.square-frame-wrapper{
+    max-width: 120px;
+    text-align: center;
+}
+
+.square-frames-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square-frames-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
 }
