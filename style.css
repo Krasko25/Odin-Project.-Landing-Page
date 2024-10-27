@@ -22,6 +22,11 @@ header{
     width: 700px;
 }
 
+.quote-part{
+    background-color: gray;
+    height: 250px;
+}
+
 .header-upper-line{
     display: flex;
     justify-content: space-between;
