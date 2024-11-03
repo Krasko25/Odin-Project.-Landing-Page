@@ -12,13 +12,13 @@ header{
     width: 700px;
 }
 
-.square-frames-part, .quote-part{
+.square-frames-part, .quote-part, .signing-up-part{
     display: flex;
     justify-content: center;
 }
 
 .square-frames-part-content, 
-.quote-part-content{
+.quote-part-content, .signing-up-part-content{
     width: 700px;
 }
 
@@ -136,4 +136,13 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.action-box{
+    background-color: rgb(125, 158, 200);
+    color: white;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 6px;
+
 }
