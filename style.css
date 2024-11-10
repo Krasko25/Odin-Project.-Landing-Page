@@ -111,7 +111,7 @@ h1{
     font-size: 22px;
 }
 
-.quote-part-content .quote-text{
+.quote-part-content{
     font-size: 22px;
     text-align: center;
 }
@@ -166,3 +166,25 @@ button.action-button {
     border-radius: 5px;
     color:white;
 }
+
+.quote-text{
+    text-align: left;
+    padding-left:20px;
+}
+
+.the-auther-of-the-quote{
+    padding-right: 20px;
+}
+
+.footer-part-text{
+}
+
+.footer-part{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
+
