@@ -160,7 +160,6 @@ button.header-button:hover{
 .quote-part-content .the-auther-of-the-quote{
     text-align: right;
     padding-top: 10px;
-    font-size: 18px;
     font-weight: 600;
 }
 
@@ -184,6 +183,10 @@ button.header-button:hover{
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+}
+
+.the-auther-of-the-quote{
+    font-size: 20px;
 }
 
 .action-box{
