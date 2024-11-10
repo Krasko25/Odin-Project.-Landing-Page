@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
 
 
 header{
@@ -9,7 +13,7 @@ header{
 
 .header-content{
     margin-top: 15px;
-    width: 700px;
+    width: 900px;
 }
 
 .square-frames-part, .quote-part, .signing-up-part{
@@ -19,12 +23,16 @@ header{
 
 .square-frames-part-content, 
 .quote-part-content{
-    width: 700px;
+    width: 900px;
 }
 
 .quote-part{
     background-color: gray;
     height: 250px;
+}
+
+.header-buildboard-line{
+    padding: 30px 0;
 }
 
 .header-upper-line{
@@ -68,7 +76,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    flex: 3;
+    flex: 4;
 }
 
 .header-buildboard-line{
@@ -123,13 +131,13 @@ button.header-button:hover{
 
 .square-frame-picture{
     border: 3px solid black;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 10%;
 }
 
 .square-frame-wrapper{
-    max-width: 120px;
+    max-width: 150px;
     text-align: center;
 }
 
@@ -163,7 +171,7 @@ button.header-button:hover{
 
 .quote-part{
     margin-top: 30px;
-    height: 250px;
+    height: 350px;
     background-color: rgb(214, 215, 217);
     display: flex;
     flex-direction: column;
@@ -174,10 +182,10 @@ button.header-button:hover{
 .action-box{
     background-color: #3882F6;
     color: white;
-    margin: 50px;
-    padding: 10px;
+    margin: 70px;
+    padding: 30px 0;
     border-radius: 6px;
-    width: 700px;
+    width: 900px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -198,6 +206,7 @@ button.action-button{
     background-color: transparent;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
+    font-size: 18px;
     font-weight: 700;
     box-sizing: border-box;
     height: 25px;
