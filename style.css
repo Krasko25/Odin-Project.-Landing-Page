@@ -141,6 +141,17 @@ button.header-button:hover{
     text-align: center;
 }
 
+.square-frames-part-content{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square-frames-part{
+    align-items: center;
+}
+
 .square-frames-wrapper{
     display: flex;
     justify-content: space-evenly;
