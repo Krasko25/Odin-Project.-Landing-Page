@@ -182,15 +182,14 @@ button.header-button:hover{
 .action-box{
     background-color: #3882F6;
     color: white;
-    margin: 70px;
-    padding: 30px 0;
+    margin: 50px;
     border-radius: 6px;
     width: 900px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 70px;
+    padding: 30px 70px;
     gap: 50px;
 
 }
